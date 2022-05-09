@@ -1,9 +1,9 @@
-import "./styles.css";
+rotulo.innerHTML = "ingrese un numero";
+let dato = document.getElementById("dato");
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>`;
+btnverif.addEventListener("click", () => {
+  let dato = document.getElementById("dato");
+  let dato: number = Number(dato.value);
+  if(dato === 0){
+  console.log("el numero ingresado es cero")
+})
